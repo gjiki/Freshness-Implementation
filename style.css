@@ -40,6 +40,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
 }
 
 .input-class {
@@ -62,6 +71,27 @@
     height: 32px;
     border-radius: 10px;
     background-color: #3bafbe;
+}
+
+.navbar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 520px;
+}
+
+.navbar-item a {
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+    font-family: "Georgia";
+}
+
+.navbar-item a:hover {
+    color: #3bafbe;
 }
 
 .slider-section {
