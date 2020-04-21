@@ -6,9 +6,37 @@
     .navbar {
         display: none;
     }
+    .slider-items {
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .shout-item {
+        justify-content: space-around;
+    }
+    .info-items {
+        justify-content: space-around;
+    }
+    .service-items {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .details-items {
+        align-items: center;
+        justify-content: space-around;
+    }
+    .details-item {
+        align-items: center;
+        justify-content: space-around;
+    }
 }
 
 @media all and (max-width: 320px) {
+    .details-item {
+        width: 100%;
+    }
     .footer-items {
         flex-direction: column;
     }
