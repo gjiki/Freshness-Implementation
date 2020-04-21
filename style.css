@@ -43,6 +43,10 @@
     flex-direction: column;
 }
 
+.border-item {
+    border-top: 5px solid #3bafbe;
+}
+
 .header-item {
     display: flex;
     flex-wrap: wrap;
