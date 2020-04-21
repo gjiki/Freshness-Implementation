@@ -416,3 +416,12 @@ p col {
     font-family: "Georgia";
     text-align: right;
 }
+
+.header-item ::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+.details-item ::placeholder {
+    padding-left: 10px;
+}
