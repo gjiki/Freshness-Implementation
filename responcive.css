@@ -1,0 +1,15 @@
+@import url("style.css");
+@media all and (max-width: 950px) {
+    .container {
+        width: 100%;
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .footer-items {
+        flex-direction: column;
+    }
+}
